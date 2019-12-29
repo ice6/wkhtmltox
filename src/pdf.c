@@ -39,6 +39,9 @@
 #include "src/pdf.h"
 #include "src/common.h"
 
+PHP_WKHTMLTOX_API zend_class_entry* wkhtmltox_pdf_ce;
+PHP_WKHTMLTOX_API zend_class_entry* wkhtmltox_pdf_object_ce;
+
 zend_object_handlers php_wkhtmltopdf_handlers;
 zend_object_handlers php_wkhtmltopdf_object_handlers;
 

@@ -39,6 +39,8 @@
 #include "src/image.h"
 #include "src/common.h"
 
+PHP_WKHTMLTOX_API zend_class_entry* wkhtmltox_image_ce;
+
 zend_object_handlers php_wkhtmltoimage_handlers;
 
 void php_wkhtmltoimage_warn(php_wkhtmltoimage_t *w, const char *warn) {

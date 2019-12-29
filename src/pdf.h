@@ -35,9 +35,6 @@
 PHP_MINIT_FUNCTION(wkhtmltox_pdf);
 PHP_MSHUTDOWN_FUNCTION(wkhtmltox_pdf);
 
-PHP_WKHTMLTOX_API zend_class_entry* wkhtmltox_pdf_ce;
-PHP_WKHTMLTOX_API zend_class_entry* wkhtmltox_pdf_object_ce;
-
 typedef struct _php_wkhtmltopdf_t {
 	wkhtmltopdf_converter *converter;
 	wkhtmltopdf_global_settings *settings;
